@@ -18,7 +18,7 @@ script: "./gradlew clean build"
 
 before_deploy:
   - mkdir -p deploy
-  - zip -r api_aws
+  - zip -r api_aws *
   - mv api_aws.zip deploy/api_aws.zip
 
 deploy:
