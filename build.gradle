@@ -6,7 +6,7 @@ plugins {
 }
 
 group = 'vitriol'
-version = '1.1.2-SNAPSHOT'
+version = '1.1.2-SNAPSHOT-'+new Date().format("yyyyMMddHHmmss")
 sourceCompatibility = '11'
 
 configurations {
